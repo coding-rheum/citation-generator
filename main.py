@@ -18,7 +18,7 @@ def pubmed_search(s):
     import requests
     import time
 
-    # declare api key --> this allows to make more than 3 citation requests at a time
+    # declare api key --> this allows to make more than 3 citation requests per second
     api_key = "d221d81fb4903f92f8dc985e1c478ad56b08"
 
     # this is the base url of NCBI's Entrez API
